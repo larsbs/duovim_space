@@ -1,0 +1,15 @@
+" Vim color file
+"
+" This file is part of the vimscode colorscheme by
+" Lorenzo Ruiz <lars.bs@hotmail.com>.
+"
+" Maintainer: Lorenzo Ruiz <lars.bs@hotmail.com>
+" URL: https://github.com/larsbs/vimscode
+
+
+" LESS Highlighting "{{{
+" =================
+hi lessAmpersand           guifg=#d9f5dd               gui=none ctermbg=none
+hi lessClassChar           guifg=#c3e88d               gui=none ctermbg=none
+hi lessFunction            guifg=#c3e88d               gui=none ctermbg=none
+" }}}
