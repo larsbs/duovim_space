@@ -14,6 +14,10 @@ Hi jsAssignExpIdent             s:dark_orange       s:ignore
 Hi jsGlobalObjects              s:soft_orange       s:ignore
 Hi jsThis                       s:soft_red          s:ignore
 
+hi link jsModuleKeyword         SpecialChar
+hi link jsVariableDef           SpecialChar
+hi link jsParen                 SpecialChar
+
 hi link jsSpecial               Statement
 
 hi link jsFuncArgRest           jsSpecial

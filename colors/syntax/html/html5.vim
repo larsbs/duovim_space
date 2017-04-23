@@ -9,13 +9,13 @@
 
 " HTML Highlighting "{{{
 " =================
-"Hi htmlTag                   s:accent_teal       s:ignore
-hi link htmlTag              Normal
-Hi htmlTagName               s:soft_red          s:ignore
+hi link htmlTag              Noise
+hi link htmlTagName          Function
 
 hi link htmlEndTag           htmlTag
 
-Hi htmlArg                   s:dark_orange       s:ignore
+hi link htmlArg              SpecialChar
+hi htmlArg                   gui=italic
 
 hi link htmlTagN             htmlTagName
 hi link htmlSpecialTagName   htmlTagName

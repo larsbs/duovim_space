@@ -10,10 +10,10 @@
 " XML Highlighting "{{{
 " =================
 hi link xmlTag          htmlTag
-hi link xmlEqual        htmlTag
+hi link xmlEqual        Operator
 
 hi link xmlTagName      htmlTagName
 hi link xmlEndTag       htmlTagName
 
-hi link xmlAttrib       htmlAttr
+hi link xmlAttrib       htmlArg
 " }}}

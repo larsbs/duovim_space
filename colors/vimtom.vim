@@ -60,22 +60,22 @@ let s:testing           = '#CDFF00'
 
 let s:black             = '#000000'
 
-let s:uno_1             = '#bebeef'
+let s:uno_1             = '#bebeef'  " pmenu fg, function names fg, html tag names fg,
 let s:uno_2             = '#8686cb'
-let s:uno_3             = '#7272a1'
-let s:uno_4             = '#5b5b7b'  "  Line numbers fg, split bg, folds bg, non text fg,
-let s:uno_5             = '#49495a'
+let s:uno_3             = '#7272a1'  " Special constants fg, html args fg, module keyword fg, vars def fg,
+let s:uno_4             = '#5b5b7b'  " Line numbers fg, split bg, folds bg, non text fg, comments fg,
+let s:uno_5             = '#49495a'  " Special chars fg,
 
-let s:duo_1             = '#fe7734'
-let s:duo_2             = '#b06845'  " Title fg,
+let s:duo_1             = '#fe7734'  " Strings and constants fg, Todo fg
+let s:duo_2             = '#b06845'  " Title fg, identifiers fg, statements fg, operators fg,
 let s:duo_3             = '#644c40'
 
 let s:syntax_fg               = '#8686cb'  " uno_2
 let s:syntax_bg               = '#24242f'  "
 let s:syntax_accent           = '#ff8441'  "
-let s:syntax_guide            = '#3a3a4b'  "
+let s:syntax_guide            = '#3a3a4b'  " pmenu bg,
 let s:syntax_selection        = '#3f3f51'  " Search bg, visual selection bg,
-let s:syntax_selection_gutter = '#2b2b37'  "
+let s:syntax_selection_gutter = '#2b2b37'  " pmenu selection bg,
 let s:syntax_cursor_line      = '#2b2b36'  "
 
 let s:ui_primary        = '#9e9eb3'  " Nerdtree titles, mode msg fg, question fg,
@@ -160,31 +160,31 @@ Hi PmenuThumb           s:ignore             s:uno_4
 " COMMENTS "{{{
 " ========
 " Any comment
-Hi Comment              s:grey_blue          s:ignore
+Hi Comment              s:uno_4              s:ignore
 hi Comment              gui=italic
 " }}}
 
 " CONSTANTS "{{{
 " =========
 " Any constant
-Hi Constant             s:dark_orange        s:ignore
+Hi Constant             s:duo_1             s:ignore
 " A string constant
-Hi String               s:soft_green         s:ignore
+Hi String               s:duo_1             s:ignore
 " }}}
 
 " IDENTIFIERS "{{{
 " ===========
 " Any variable name
-Hi Identifier           s:soft_violet        s:ignore
+Hi Identifier           s:duo_2              s:ignore
 hi Identifier           gui=none
 " Function name (also: methods for classes)
-Hi Function             s:light_blue         s:ignore
+Hi Function             s:uno_1              s:ignore
 " }}}
 
 " STATEMENTS "{{{
 " ==========
 " Any statement
-Hi Statement            s:soft_violet        s:ignore
+Hi Statement            s:duo_2              s:ignore
 hi Statement            gui=none
 " if, then, else, endif, switch, etc.
 "hi Conditional
@@ -193,7 +193,7 @@ hi Statement            gui=none
 " case, default, etc.
 "hi Label
 " sizeof, +, *, etc.
-Hi Operator             s:soft_lime_green    s:ignore
+Hi Operator             s:duo_2              s:ignore
 " Any other keyword
 "hi Keyword
 " Try, catch, throw
@@ -203,7 +203,7 @@ Hi Operator             s:soft_lime_green    s:ignore
 " PREPROCS "{{{
 " ========
 " Generic preprocessor
-Hi PreProc              s:soft_violet        s:ignore
+Hi PreProc              s:duo_2             s:ignore
 " Preprocessor #include
 "hi Include
 " Preprocessor #define
@@ -217,7 +217,7 @@ Hi PreProc              s:soft_violet        s:ignore
 " TYPES "{{{
 " =====
 " int, long, char, etc.
-Hi Type                 s:soft_violet        s:ignore
+Hi Type                 s:duo_2            s:ignore
 hi Type                 gui=none
 " static, register, volatile, etc.
 "hi StorageClass
@@ -230,9 +230,11 @@ hi Type                 gui=none
 " SPECIALS "{{{
 " ========
 " Any special symbol (ex: [, ], (, ), etc.)
-Hi Special              s:lighter_grey_blue  s:ignore
+Hi Special              s:uno_5              s:ignore
+" Extra characters like {, ,, ., etc"
+Hi Noise                s:uno_5              s:ignore
 " Special character in a constant (ex: \n, %s, etc.)
-Hi SpecialChar          s:accent_teal        s:ignore
+Hi SpecialChar          s:uno_3              s:ignore
 " You can use CTRL-] on this
 "hi Tag
 " Character that needs attention
@@ -265,7 +267,7 @@ Hi SpecialChar          s:accent_teal        s:ignore
 " =====
 " Anything that needs extra attention; mostly the kewords
 " TODO FIXME and XXX
-Hi Todo                 s:accent_teal    s:none
+Hi Todo                 s:duo_1         s:none
 hi Todo                 gui=bold
 " }}}
 
