@@ -115,7 +115,7 @@ Hi Cursor               s:none               s:syntax_accent
 "hi CursorIM
 Hi CursorColumn         s:ignore             s:syntax_cursor_line
 Hi CursorLine           s:ignore             s:syntax_cursor_line
-Hi Directory            s:ui_primary   s:ignore
+Hi Directory            s:ui_primary         s:ignore
 Hi DiffAdd              s:soft_green         s:syntax_bg
 hi DiffAdd              gui=bold
 Hi DiffChange           s:soft_orange        s:syntax_bg

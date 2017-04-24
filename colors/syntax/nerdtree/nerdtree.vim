@@ -10,11 +10,14 @@
 " NERDTree Highlighting "{{{
 " =====================
 " Highlighting for directory nodes and file nodes
-hi NERDTreeDirSlash        guifg=#d7dae0               gui=none ctermbg=none
-hi NERDTreeDir             guifg=#d7dae0               gui=bold ctermbg=none
+hi link NERDTreeDir        Directory
+hi link NERDTreeDirSlash   Directory
+
+Hi NERDTreeFile            s:ui_secondary              s:ignore
+
+Hi NERDTreeCWD             s:syntax_accent             s:ignore
+hi link NERDTreeOpenable   NERDTreeCWD
+hi link NERDTreeClosable   NERDTreeCWD
+
 hi NERDTreeUp              guifg=#ff0000               gui=none ctermbg=none
-hi NERDTreeFile            guifg=#9da5b4               gui=none ctermbg=none
-hi NERDTreeCWD             guifg=#639fce               gui=none ctermbg=none
-hi NERDTreeOpenable        guifg=#639fce               gui=none ctermbg=none
-hi NERDTreeClosable        guifg=#639fce               gui=none ctermbg=none
 " }}}
