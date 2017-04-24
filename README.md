@@ -1,6 +1,6 @@
 # Vim duovim_space Colorscheme
 
-A vim color scheme based on [Dark+](https://github.com/Microsoft/vscode/blob/2f76c44632b0d47ba97f66fbc158c763628e30b3/extensions/theme-defaults/themes/dark_plus.json) from visual studio. Improved for web development.
+A vim color scheme based on [simurai/duotone-dark-space-syntax](https://github.com/simurai/duotone-dark-space-syntax). Improved for web development.
 
 
 ## Target Syntax Highlighting Plugins
@@ -16,14 +16,15 @@ This theme has been designed with the following syntax highlighting plugins in m
  * LESS: [genoma/vim-less](https://github.com/genoma/vim-less)
  * Handlebars: [mustache/vim-mustache-handlebars](https://github.com/mustache/vim-mustache-handlebars)
 
-Support for configure and extend the list of supported syntax highlighting plugins is planned. See [colors/syntax/](colors/syntax/) for reference.
+Support for configure and extend the list of supported syntax highlighting plugins is planned. See [colors/syntax/](colors/syntax/) for reference. PRs accepted.
 
 
 ## Installation
 
 ### Vundle (Recommended)
 
-Installation using [Vundle](https://github.com/VundleVim/Vundle.vim) mentioned for completeness. It should be similar to the installation of other Vim plugins with whatever installation method you are used to.
+Installation using [Vundle](https://github.com/VundleVim/Vundle.vim) just mentioned for completeness.
+It should be similar to the installation of other Vim plugins with whatever installation method you are used to.
 
 Install [Vundle](https://github.com/VundleVim/Vundle.vim) and add this theme as a plugin to your `.vimrc`:
 
