@@ -9,9 +9,13 @@
 
 " LESS Highlighting "{{{
 " =================
-hi lessAmpersand           guifg=#d9f5dd               gui=none ctermbg=none
-hi lessClassChar           guifg=#c3e88d               gui=none ctermbg=none
-hi lessFunction            guifg=#c3e88d               gui=none ctermbg=none
+hi link lessAmpersand      Noise
+
+hi link lessFunction       Function
+hi link lessCssAttribute   Function
+
+hi link lessClass          Normal
+hi link lessClassChar      lessClass
 
 hi link lessVariable       SpecialChar
 " }}}
