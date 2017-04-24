@@ -50,7 +50,6 @@ endfunc
 
 " COLORS "{{{
 " =======
-
 " uno_hue = 240
 " duo_hue = 20
 
@@ -82,29 +81,11 @@ let s:syntax_cursor           = '#955b44'  " cursor bg,
 let s:ui_primary        = '#9e9eb3'  " Nerdtree titles, mode msg fg, question fg,
 let s:ui_secondary      = '#6a6a79'
 
-
-let s:darkest_grey_blue = '#21252b'  " Highlighted background, airline, etc.
-let s:darker_grey_blue  = '#282c34'  " Normal background
-let s:dark_grey_blue    = '#4b5262'  " Line numbers, split, etc
-let s:grey_blue         = '#5c6370'  " Folds, comments, etc
-let s:light_grey_blue   = '#3e4451'  " Visual
-let s:lighter_grey_blue = '#abb2bf'  " Normal text
-
-let s:accent_teal       = '#56b6c2'  " Titles in NERDTree and TODO
-let s:search_yellow     = '#f8e71c'  " Search color *
-let s:cursor_blue       = '#3f5e9d'  " Cursor
-
 let s:light_blue        = '#dcdcaa'  " Functions
 let s:soft_red          = '#e06c75'  " Errors
 let s:dark_soft_red     = '#cc525b'  " Not used? *
 let s:soft_green        = '#ce9178'  " Strings
-let s:soft_violet       = '#c586c0'  " Keyword
-let s:soft_lime_green   = '#d9f5dd'  " Operators *
 let s:soft_orange       = '#e5c06f'  " Global objects
-let s:dark_orange       = '#d19a66'  " HTML args
-let s:light_red         = '#e06c75'  " HTML Tag name
-
-let s:pmenu_bg          = '#3a3f4b'  " PMenu background
 " }}}
 
 " GENERAL "{{{
