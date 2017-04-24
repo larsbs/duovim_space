@@ -68,15 +68,16 @@ let s:uno_5             = '#49495a'  " Special chars fg,
 
 let s:duo_1             = '#fe7734'  " Strings and constants fg, Todo fg
 let s:duo_2             = '#b06845'  " Title fg, identifiers fg, statements fg, operators fg,
-let s:duo_3             = '#644c40'
+let s:duo_3             = '#644c40'  " js this fg, js global objects fg,
 
 let s:syntax_fg               = '#8686cb'  " uno_2
 let s:syntax_bg               = '#24242f'  "
-let s:syntax_accent           = '#ff8441'  "
+let s:syntax_accent           = '#ff8441'  " cursor bg,
 let s:syntax_guide            = '#3a3a4b'  " pmenu bg,
 let s:syntax_selection        = '#3f3f51'  " Search bg, visual selection bg,
 let s:syntax_selection_gutter = '#2b2b37'  " pmenu selection bg,
 let s:syntax_cursor_line      = '#2b2b36'  "
+let s:syntax_cursor           = '#955b44'  " cursor bg,
 
 let s:ui_primary        = '#9e9eb3'  " Nerdtree titles, mode msg fg, question fg,
 let s:ui_secondary      = '#6a6a79'

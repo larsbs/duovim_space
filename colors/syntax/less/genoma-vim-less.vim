@@ -12,4 +12,6 @@
 hi lessAmpersand           guifg=#d9f5dd               gui=none ctermbg=none
 hi lessClassChar           guifg=#c3e88d               gui=none ctermbg=none
 hi lessFunction            guifg=#c3e88d               gui=none ctermbg=none
+
+hi link lessVariable       SpecialChar
 " }}}

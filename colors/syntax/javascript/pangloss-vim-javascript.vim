@@ -9,14 +9,18 @@
 
 " JavaScript Highlighting "{{{
 " =======================
-Hi jsAssignExpIdent             s:dark_orange       s:ignore
+Hi jsGlobalObjects              s:duo_3             s:ignore
+hi link jsThis                  jsGlobalObjects
+hi link jsAssignExpIdent        jsGlobalObjects
+hi link jsExceptions            jsGlobalObjects
 
-Hi jsGlobalObjects              s:soft_orange       s:ignore
-Hi jsThis                       s:soft_red          s:ignore
-
-hi link jsModuleKeyword         SpecialChar
 hi link jsVariableDef           SpecialChar
-hi link jsParen                 SpecialChar
+
+hi link jsModuleKeyword         jsVariableDef
+hi link jsParen                 jsVariableDef
+hi link jsObjectKey             jsVariableDef
+hi link jsDestructuringBlock    jsVariableDef
+hi link jsParenIfElse           jsVariableDef
 
 hi link jsSpecial               Statement
 
@@ -26,7 +30,6 @@ hi link jsStatic                jsSpecial
 hi link jsSuper                 jsSpecial
 hi link jsPrototype             jsSpecial
 hi link jsArgsObj               jsSpecial
-"hi link jsTemplateVar           jsSpecial
 hi link jsFutureKeys            jsSpecial
 hi link jsBuiltins              jsSpecial
 hi link jsDecorator             jsSpecial
@@ -39,6 +42,4 @@ hi link jsFunctionKey           Function
 hi link jsFuncCall              Function
 hi link jsFuncAssignExpr        Function
 hi link jsFuncAssignIdent       Function
-
-hi link jsExceptions            jsGlobalObjects
 " }}}

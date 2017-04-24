@@ -10,15 +10,16 @@
 " CSS Highlighting "{{{
 " ================
 " Common
-Hi cssProp                  s:accent_teal       s:ignore
-"hi cssAttr
-hi link cssTagName          Statement
-"hi cssIdentifier
-"hi cssDefinition
-Hi cssClassName             s:soft_green        s:ignore
+hi link cssProp             Normal
+
+hi link cssTagName          htmlTagName
+
+Hi cssClassName             s:duo_3         s:ignore
 hi link cssPseudoClass      cssClassName
 hi link cssPseudoClassId    cssClassName
-hi link cssNoise            Normal
+
+hi link cssNoise            Noise
+
 " JulesWang plugin
-hi link cssBraces           Normal
+hi link cssBraces           Noise
 " }}}
