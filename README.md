@@ -1,4 +1,4 @@
-# Vim Vimscode Colorscheme
+# Vim duovim_space Colorscheme
 
 A vim color scheme based on [Dark+](https://github.com/Microsoft/vscode/blob/2f76c44632b0d47ba97f66fbc158c763628e30b3/extensions/theme-defaults/themes/dark_plus.json) from visual studio. Improved for web development.
 
@@ -29,7 +29,7 @@ Install [Vundle](https://github.com/VundleVim/Vundle.vim) and add this theme as 
 
 ```vim
 "...
-Plugin 'larsbs/vimscode'
+Plugin 'larsbs/duovim_space'
 "...
 ```
 

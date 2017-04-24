@@ -1,6 +1,6 @@
 " Vim color file
 " Maintainer:   Lorenzo Ruiz <lars.bs@hotmail.com>
-" URL: https://github.com/larsbs/vimscode
+" URL: https://github.com/larsbs/duovim_space
 
 
 " CONFIGURATION "{{{
@@ -13,7 +13,7 @@ if exists("syntax_on")
     syntax reset
 endif
 
-let colors_name="vimtom"
+let colors_name="duovim_space"
 " }}}
 
 " UTILS "{{{
