@@ -11,6 +11,7 @@
 " ================
 " Common
 hi link cssProp             Normal
+hi cssProp                  gui=bold
 
 hi link cssTagName          htmlTagName
 

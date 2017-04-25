@@ -112,6 +112,7 @@ Hi SignColumn           s:uno_4              s:ignore
 Hi IncSearch            s:none               s:syntax_selection
 Hi Search               s:none               s:syntax_selection
 Hi LineNr               s:uno_4              s:ignore
+Hi CursorLineNr         s:uno_4              s:ignore
 Hi MatchParen           s:none               s:none
 hi MatchParen           gui=underline
 Hi ModeMsg              s:ui_primary         s:none

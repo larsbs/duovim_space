@@ -10,12 +10,13 @@
 " LESS Highlighting "{{{
 " =================
 hi link lessAmpersand      Noise
+hi link lessClassChar      Noise
 
 hi link lessFunction       Function
 hi link lessCssAttribute   Function
 
-hi link lessClass          Normal
-hi link lessClassChar      lessClass
+hi link lessClass          Function
+hi link lessDefinition     lessClass
 
 hi link lessVariable       SpecialChar
 " }}}
